@@ -1,0 +1,61 @@
+.rightwidget {
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  flex: 2;
+}
+
+.rightwidgettitle{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.rightwidgettable{
+  width: 100%;
+  border-spacing: 15px;
+}
+
+.rightwidgetuser{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+ 
+}
+
+.rightwidgetth{
+  text-align: left;
+}
+
+.rightwidgetdate, .rightwidgetAmount{
+  font-weight: 300;
+}
+
+.rightwidgetimage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.rightwidgetbutton{
+  padding: 5px 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.rightwidgetbutton.Approved{
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+.rightwidgetbutton.Declined{
+  background-color: rgb(255, 59, 59);
+  color: rgb(109, 0, 0);
+}
+
+.rightwidgetbutton.Pending{
+  background-color: orange;
+  color: rgb(83, 54, 0);
+}

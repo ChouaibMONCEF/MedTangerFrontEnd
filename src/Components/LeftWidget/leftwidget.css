@@ -1,0 +1,61 @@
+.leftwidget {
+  margin-right: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  -webkit-box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  flex: 1;
+
+}
+
+.leftwidgetTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.leftWidgetImage{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.leftwidgetList{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.leftwidgetListItem{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.leftwidgetUser{
+  display: flex;
+  flex-direction: column;
+}
+
+.leftwidgetName{
+  font-weight: 600;
+}
+.leftwidgetGrade{
+  font-weight: 200;
+}
+
+.leftWidgetButton{
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.lwi{
+  font-size: 16px;
+  margin-right: 5px;
+}

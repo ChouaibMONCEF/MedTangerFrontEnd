@@ -1,0 +1,54 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  background-color: #f3f1ff;
+}
+
+.featItem {
+  background-color: #f3f1ff;
+  flex: 2;
+  margin: 0px 20px;
+  padding: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.20);
+  box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.20);
+}
+
+.featTitle {
+  font-size: 20px;
+}
+
+.featMoneyContainer {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.featMoney {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.featRate {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.featIcon {
+  font-size: 14px;
+  margin-left: 5px;
+  color: green;
+}
+
+.featIcon.negative {
+  color: rgb(255, 8, 8);
+}
+
+.featSub {
+  font-size: 15px;
+  color: rgb(7, 125, 165);
+}

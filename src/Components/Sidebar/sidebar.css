@@ -1,0 +1,73 @@
+.sidebar {
+  flex: 1;
+  background-color: #00A4FF;
+  height: calc(100vh - 50px);
+  position: sticky !important;
+  top: 50px;
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+}
+
+.sidebarTitle {
+  font-size: 15px;
+  color: #4de1ff;
+}
+
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+}
+
+.listItem {
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  color: #f3f1ff;
+}
+
+.listItem.active,
+.listItem:hover {
+  background-color: #f3f1ff;
+  color: darkblue;
+  position: relative;
+}
+.path {
+  width: 210px;
+  height: 60px;
+  position: absolute;
+  -webkit-clip-path: polygon(
+    83.4% 20.8%,
+    91.5% 15.8%,
+    100% 0%,
+    100% 100%,
+    91.4% 83.8%,
+    83.6% 79.5%,
+    75.1% 76.3%,
+    65.9% 49.8%,
+    75.4% 22.8%
+  );
+  clip-path: polygon(
+    83.4% 20.8%,
+    91.5% 15.8%,
+    100% 0%,
+    100% 100%,
+    91.4% 83.8%,
+    83.6% 79.5%,
+    75.1% 76.3%,
+    65.9% 49.8%,
+    75.4% 22.8%
+  );
+  background-color: #f3f1ff;
+}
+
+.MIcon {
+  margin-right: 5px;
+}

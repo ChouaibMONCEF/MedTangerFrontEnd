@@ -1,0 +1,56 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: #00A4FF;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbarwrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightnav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 30px;
+    color: #f3f1ff;
+    cursor: pointer;
+}
+
+.iconcontainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #f3f1ff;
+}
+
+.iconbadge{
+    position: absolute;
+    top: -5px;
+    right: 1px;
+    background-color: rgba(255, 0, 0, 0.781);
+    border-radius: 50%;
+    color: bisque;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}

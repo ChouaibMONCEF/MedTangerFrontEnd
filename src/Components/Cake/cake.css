@@ -1,0 +1,40 @@
+.cake {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  box-shadow: -4px 3px 50px -15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  flex: 1;
+  position: relative;
+}
+
+.key{
+    display: flex;
+    align-items: center;
+    
+}
+
+.a{
+    width: 35px;
+    height: 25px;
+    background-color:#0088FE;
+    margin: 10px;
+}
+.b{
+    width: 35px;
+    height: 25px;
+    background-color:#00C49F;
+    margin: 10px;
+}
+.c{
+    width: 35px;
+    height: 25px;
+    background-color:#FFBB28;
+    margin: 10px;
+}
+.d{
+    width: 35px;
+    height: 25px;
+    background-color:#FF8042;
+    margin: 10px;
+}

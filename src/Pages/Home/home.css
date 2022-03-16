@@ -1,0 +1,12 @@
+.home{
+    background-color: #f3f1ff;
+    flex: 7;
+}
+
+.statistics{
+    display: flex;
+}
+.homeWidgets{
+    display: flex;
+    margin: 20px;
+}

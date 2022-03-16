@@ -1,0 +1,45 @@
+.StudentList{
+    flex: 7;
+}
+
+.studentavatarrow{
+    display: flex;
+    align-items: center;
+}
+
+.studentimg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.userbtns{
+ display: flex;
+}
+
+.userlistedit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 7px;
+    margin: 5px;
+    background-color: rgba(66, 66, 253, 0.15);
+    color: darkblue;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
+.userlistdelete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 7px;
+    margin: 5px;
+    background-color: rgba(255, 50, 50, 0.15);
+    color: darkred;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
